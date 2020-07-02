@@ -26,7 +26,7 @@ https://www.linkedin.com/pulse/styled-components-in%C3%ADcio-r%C3%A1pido-roberto
   </a>
 </p>
 
- <img src="https://raw.githubusercontent.com/robertokbr/StyledComponentsStarter/master/.Github/screenshot.png"/>
+ <img src="https://raw.githubusercontent.com/robertokbr/StyledComponentsStarter/master/.Github/screenshot.gif"/>
 
 
 - [ReactJs](https://reactjs.org) - A JavaScript library for building user interfaces
