@@ -5,7 +5,7 @@
 </h1>
 
 <a target="_blank" href="https://www.linkedin.com/pulse/styled-components-in%C3%ADcio-r%C3%A1pido-roberto-junior/">
-  Linkedin Article
+  <p align="center"> Linkedin Article </p>
 </a>
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/robertokbr/StyledComponentsStarter.svg">
