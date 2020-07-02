@@ -11,12 +11,6 @@ export default createGlobalStyle`
 body{
 
   --webkit-font-smoothing: antialiased;
-  max-height: 100vh;
-display:flex;
-align-items:center;
-justify-content:center;
-margin: 120px auto;
-padding: 30px 30px;
   background: linear-gradient(-45deg, #EE7752, #E73C73, #23A6D5,#23D5AB );
 background-size: 400% 400%;
 position: relative;
@@ -45,6 +39,14 @@ button{
   cursor: pointer;
 }
 
+#root{
+height: 100%;
+display:flex;
+align-items:center;
+justify-content:center;
+margin: 120px auto;
+padding: 30px 30px;
 
+}
 
 `;
