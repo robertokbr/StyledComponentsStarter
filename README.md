@@ -4,9 +4,9 @@
   Styled Components starter
 </h1>
 
-<h4 align="center">
-https://www.linkedin.com/pulse/styled-components-in%C3%ADcio-r%C3%A1pido-roberto-junior/
-</h4>
+<a target="_blank" href="https://www.linkedin.com/pulse/styled-components-in%C3%ADcio-r%C3%A1pido-roberto-junior/">
+  Linkedin Article
+</a>
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/robertokbr/StyledComponentsStarter.svg">
 
