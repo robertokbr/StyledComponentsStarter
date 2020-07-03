@@ -40,11 +40,11 @@ button{
 }
 
 #root{
-height: 100%;
+height: 100vh;
+width:100vw;
 display:flex;
 align-items:center;
 justify-content:center;
-margin: 120px auto;
 padding: 30px 30px;
 
 }

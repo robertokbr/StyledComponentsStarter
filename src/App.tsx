@@ -1,5 +1,5 @@
 import React from 'react';
-import Exemplo from './Exemple';
+import Exemplo from './Pages';
 
 import GlobalStyle from './styles/global';
 
