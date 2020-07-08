@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://raw.githubusercontent.com/robertokbr/StyledComponentsStarter/master/src/assets/icon.png" width="100px" /><br>
+    <img src="https://github.com/robertokbr/StyledComponentsStarter/blob/master/Project/src/assets/icon.png" width="100px" /><br>
     <br>
   Styled Components starter
 </h1>
@@ -26,6 +26,7 @@
   </a>
 </p>
 
+ <img src="https://raw.githubusercontent.com/robertokbr/StyledComponentsStarter/master/.Github/project-2.gif"/>
  <img src="https://raw.githubusercontent.com/robertokbr/StyledComponentsStarter/master/.Github/screenshot.gif"/>
 
 
