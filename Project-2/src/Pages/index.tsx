@@ -9,7 +9,7 @@ const Exemplo: React.FC = () => {
     <Container>
       <Header>
         <div>
-          <a href="https://github.com/robertokbr">
+          <a href="/">
             <img src={perfil} alt="Perfil" />
           </a>
         </div>
