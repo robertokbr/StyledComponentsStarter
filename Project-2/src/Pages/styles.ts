@@ -1,39 +1,43 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 1000px;
-  min-width: 500px;
-  max-height: 900px;
-  display: flex;
-`;
-export const Social = styled.div`
-  background-color: #24242497;
-
-  min-width: 100px;
-  max-height: 900px;
-  border-radius: 0 10px 10px 0;
+  background-color: #24242499;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+  align-items: stretch;
+`;
+
+export const Top = styled.div`
+  background-color: #242424;
+  padding: 30px;
+  margin-bottom: 10px;
+`;
+
+export const User = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 550px;
+  margin-left: 10px;
+
   svg {
-    color: #f0f0f5;
-    transition: 0.2s;
-    &:hover {
-      transform: scale(1.5);
-    }
+    margin-right: 10px;
   }
 `;
 
 export const Header = styled.header`
-  height: 100%;
+  border-radius: 15px 15px 0 0;
+  flex: 1;
+  background-color: #24242499;
+  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-color: #24242490;
-  border-radius: 10px 0 0 10px;
-  padding: 45px;
+  padding: 20px;
+  box-shadow: 1px 1px 20px  rgba(0, 0, 0, 0.2);
+
   div {
     width: 260px;
     height: 260px;
@@ -41,8 +45,12 @@ export const Header = styled.header`
     background-color: #fff;
     position: relative;
     margin: 20px auto;
+
     &:hover {
       background-color: #78e08f;
+  box-shadow: 1px 1px 100px #78e08f40;
+
+
     }
 
     a {
@@ -58,20 +66,32 @@ export const Header = styled.header`
       }
     }
   }
-  section {
-    background: #24242497;
-    padding: 15px;
-    border-radius: 10px;
+  strong {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    color: #fff;
-
-    p {
-      font-size: 18px;
-      margin: 20px 0;
-      color: #f5f6fa99;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+`;
+export const Contact = styled.div`
+  svg {
+    margin-right: 40px;
+    transition: 0.2s;
+    &:hover {
+      transform: scale(1.5);
     }
+  }
+  box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.2);
+
+  flex: 1;
+  background-color: #24242499;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin: 2px 0;
+  padding: 0 30px;
+
+  &:last-child {
+    margin-bottom: 10px;
+    border-radius: 0 0 15px 15px;
   }
 `;

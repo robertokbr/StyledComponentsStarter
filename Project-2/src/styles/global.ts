@@ -39,14 +39,5 @@ button{
   cursor: pointer;
 }
 
-#root{
-height: 100vh;
-width:100vw;
-display:flex;
-align-items:center;
-justify-content:center;
-padding: 30px 30px;
-
-}
 
 `;
