@@ -36,7 +36,7 @@ export const Header = styled.header`
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  box-shadow: 1px 1px 20px  rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
 
   div {
     width: 260px;
@@ -48,9 +48,7 @@ export const Header = styled.header`
 
     &:hover {
       background-color: #78e08f;
-  box-shadow: 1px 1px 100px #78e08f40;
-
-
+      box-shadow: 1px 1px 100px #78e08f40;
     }
 
     a {
@@ -73,14 +71,14 @@ export const Header = styled.header`
   }
 `;
 export const Contact = styled.div`
+  &:hover {
+    transform: scale(1.03);
+  }
+  transition: 0.2s;
   svg {
     margin-right: 40px;
-    transition: 0.2s;
-    &:hover {
-      transform: scale(1.5);
-    }
   }
-  box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 
   flex: 1;
   background-color: #24242499;
